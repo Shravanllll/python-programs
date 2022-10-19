@@ -1,0 +1,6 @@
+import pickle
+file=open('PICKLE123.txt','wb')
+k=[1,2,3,4,5]
+encode=pickle.dumps(k)
+file.write(encode)
+file.close()
